@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url("/images/mine.jpg");
+  background: url("https://raw.githubusercontent.com/cpe207-2568/lab02v2-Phemenon/refs/heads/master/images/mine.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -59,13 +59,6 @@ header .navbar {
 }
 
 .hero-section .content p {
-    font-weight: 300;
-    font-size: 20;
-    margin-top: 15px;
-    max-width: 450px;
-}
-
-.hero-section .content a {
     font-weight: 300;
     font-size: 20;
     margin-top: 15px;
