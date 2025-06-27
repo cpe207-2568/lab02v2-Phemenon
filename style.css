@@ -1,0 +1,87 @@
+/*import google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playpen+Sans+Thai:wght@100..800&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: url("/images/mine.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  max-width: 1800px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar .menu-links {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.hero-section .content {
+  color: #fff;
+}
+
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 1000px;
+}
+
+.hero-section .content p {
+    font-weight: 300;
+    font-size: 20;
+    margin-top: 15px;
+    max-width: 450px;
+}
+
+.hero-section .content a {
+    font-weight: 300;
+    font-size: 20;
+    margin-top: 15px;
+    max-width: 450px;
+}
+
+.hero-section .content h2 {
+    font-size: 1rem;
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.hero-section .content .images {
+  gap: 30px;           
+  margin-top: 20px;
+  height: auto;       
+  width: 100px;       
+  object-fit: contain; 
+}
